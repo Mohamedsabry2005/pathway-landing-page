@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pathway.</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="../assets/route-line.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div
+          class="container mb-20 mx-auto flex justify-between items-center p-4"
+        >
+          <div class="logo">
+            <p class="text-xl text-slate-900 font-bold">
+              Pathway<span class="text-blue-500">.</span>
+            </p>
+          </div>
+          <div class="menu hidden md:flex justify-center items-center gap-6">
+            <a
+              href="#home"
+              class="transition-all duration-200 text-gray-800 hover:text-blue-500"
+              >Home</a
+            >
+            <a
+              href="#destinations"
+              class="transition-all duration-200 text-gray-800 hover:text-blue-500"
+              >Destinations</a
+            >
+            <a
+              href="#pricing"
+              class="transition-all duration-200 text-gray-800 hover:text-blue-500"
+              >Pricing</a
+            >
+            <a
+              href="#reviews"
+              class="transition-all duration-200 text-gray-800 hover:text-blue-500"
+              >Reviews</a
+            >
+          </div>
+          <button
+            class="text-white px-6 py-2 bg-blue-500 transition-all duration-200 hover:bg-blue-900 rounded-full"
+          >
+            Contact Us
+          </button>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div
+          class="container overflow-hidden mx-auto flex flex-col md:flex-row justify-between items-center p-6"
+        >
+          <div class="img relative sm:ms-28 me-auto md:w-1/2 md:m-0">
+            <img
+              src="../assets/header-1.jpg"
+              class="w-auto h-96 rounded-3xl border-8 border-gray-100 drop-shadow-2xl"
+              alt="header1"
+            />
+            <img
+              src="../assets/header-2.jpg"
+              class="absolute -mt-72 w-auto h-72 bottom-0 -right-20 rounded-3xl border-8 border-gray-100 drop-shadow-2xl md:relative md:left-36"
+              alt="header2"
+            />
+          </div>
+          <div class="text mx-auto md:w-1/2 py-10 px-10">
+            <p class="text-blue-500 font-bold">Book Now</p>
+            <h1 class="text-[38px] text-slate-900 font-bold">
+              The Smiling 😊<br />
+              agent for travel
+            </h1>
+            <p class="text-gray-800 py-5">
+              Make your travel more enjoyable with us. We are the best travel
+              agency and we are providing the best travel services for our
+              clients.
+            </p>
+            <div
+              class="action w-fit gap-8 flex justify-between flex-wrap items-center"
+            >
+              <button
+                class="text-white px-6 w-fit py-2 bg-blue-500 transition-all duration-200 hover:bg-blue-900 rounded-full"
+              >
+                Plan a Trip
+              </button>
+              <div class="story flex items-center">
+                <img
+                  src="../assets/story.jpg"
+                  class="rounded-full w-12"
+                  alt="story"
+                />
+                <div
+                  class="player w-fit p-2 bg-white -ms-3 shadow-xl rounded-full"
+                >
+                  <img src="../assets/play-fill.svg" class="w-3" alt="play" />
+                </div>
+              </div>
+              <p class="font-bold text-gray-700">Watch our story</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="destinations">
+      <div class="container px-6 mt-20 mx-auto py-12">
+        <div
+          class="heading flex flex-col md:flex-row justify-between items-center"
+        >
+          <div class="content">
+            <h3 class="text-[28px] font-bold text-slate-900">
+              Explore top destinations
+            </h3>
+            <p class="text-gray-500 py-5">
+              Explore your suitable and dream places around the world. Here you
+              can find your right destination.
+            </p>
+          </div>
+          <div class="arrows flex gap-4">
+            <div class="left border-blue-500 border-4 w-fit rounded-full">
+              <img
+                class="w-8"
+                src="../assets/arrow-drop-left-line.svg"
+                alt="left"
+              />
+            </div>
+            <div class="right border-blue-500 border-4 w-fit rounded-full">
+              <img
+                class="w-8"
+                src="../assets/arrow-drop-right-line.svg"
+                alt="right"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="cards flex justify-evenly py-5 items-center gap-8 flex-wrap"
+        >
+          <div class="group relative w-fit overflow-hidden">
+            <img
+              class="w-auto h-96 rounded-3xl object-cover"
+              src="../assets/destination-1.jpg"
+              alt="1"
+            />
+            <div
+              class="content absolute w-[90%] p-4 bottom-5 left-[50%] translate-x-[-50%] text-center translate-y-[150%] group-hover:translate-y-0 backdrop-blur-sm bg-white/[55%] rounded-xl duration-300"
+            >
+              <p class="text-white">Banff</p>
+              <p class="text-white font-bold">Canada</p>
+            </div>
+          </div>
+          <div class="group relative w-fit overflow-hidden">
+            <img
+              class="w-auto h-96 rounded-3xl object-cover"
+              src="../assets/destination-2.jpg"
+              alt="2"
+            />
+            <div
+              class="content absolute w-[90%] p-4 bottom-5 left-[50%] translate-x-[-50%] text-center translate-y-[150%] group-hover:translate-y-0 backdrop-blur-sm bg-white/[55%] rounded-xl duration-300"
+            >
+              <p class="text-white">Machu Picchu</p>
+              <p class="text-white font-bold">Peru</p>
+            </div>
+          </div>
+          <div class="group relative w-fit overflow-hidden">
+            <img
+              class="w-auto h-96 rounded-3xl object-cover"
+              src="../assets/destination-3.jpg"
+              alt="3"
+            />
+            <div
+              class="content absolute w-[90%] p-4 bottom-5 left-[50%] translate-x-[-50%] text-center translate-y-[150%] group-hover:translate-y-0 backdrop-blur-sm bg-white/[55%] rounded-xl duration-300"
+            >
+              <p class="text-white">Lauterbrunnen</p>
+              <p class="text-white font-bold">Switzerland</p>
+            </div>
+          </div>
+          <div class="group relative w-fit overflow-hidden">
+            <img
+              class="w-auto h-96 rounded-3xl object-cover"
+              src="../assets/destination-4.jpg"
+              alt="4"
+            />
+            <div
+              class="content absolute w-[90%] p-4 bottom-5 left-[50%] translate-x-[-50%] text-center translate-y-[150%] group-hover:translate-y-0 backdrop-blur-sm bg-white/[55%] rounded-xl duration-300"
+            >
+              <p class="text-white">Zhangjiajie</p>
+              <p class="text-white font-bold">China</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="container px-6 mt-20 mx-auto py12">
+        <div class="flex flex-col justify-between">
+          <div class="content text-center">
+            <h3 class="text-[28px] font-bold text-slate-900">
+              Best trip package
+            </h3>
+            <p class="text-gray-500 py-5">
+              Explore your suitable and dream places around the world. Here you
+              can find your right destination.
+            </p>
+          </div>
+          <div
+            class="cards flex justify-evenly py-5 items-center gap-8 flex-wrap"
+          >
+            <div
+              class="flex flex-col gap-5 w-80 overflow-hidden rounded-2xl shadow-2xl"
+            >
+              <div class="">
+                <img
+                  class="object-cover"
+                  src="../assets/trip-1.jpg"
+                  alt="trip"
+                />
+              </div>
+              <div class="content p-4">
+                <p>Wasserwerk Frelberg, Germany</p>
+                <p class="text-yellow-500 text-lg">4.2</p>
+                <div class="book-now flex justify-between items-center">
+                  <p>From<span class="font-bold">$300</span></p>
+                  <button
+                    class="text-blue-900 border-2 border-blue-900 px-6 py-2 transition-all duration-200 hover:bg-blue-900 hover:text-white rounded-full"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col gap-5 w-80 overflow-hidden rounded-2xl shadow-2xl"
+            >
+              <div class="">
+                <img
+                  class="object-cover"
+                  src="../assets/trip-2.jpg"
+                  alt="trip"
+                />
+              </div>
+              <div class="content p-4">
+                <p>Patagonia, Argentina and Chile</p>
+                <p class="text-yellow-500 text-lg">4.5</p>
+                <div class="book-now flex justify-between items-center">
+                  <p>From<span class="font-bold">$450</span></p>
+                  <button
+                    class="text-blue-900 border-2 border-blue-900 px-6 py-2 transition-all duration-200 hover:bg-blue-900 hover:text-white rounded-full"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col gap-5 w-80 overflow-hidden rounded-2xl shadow-2xl"
+            >
+              <div class="">
+                <img
+                  class="object-cover"
+                  src="../assets/trip-3.jpg"
+                  alt="trip"
+                />
+              </div>
+              <div class="content p-4">
+                <p>The Dolomites, Italy</p>
+                <p class="text-yellow-500 text-lg">4.7</p>
+                <div class="book-now flex justify-between items-center">
+                  <p>From<span class="font-bold">$400</span></p>
+                  <button
+                    class="text-blue-900 border-2 border-blue-900 px-6 py-2 transition-all duration-200 hover:bg-blue-900 hover:text-white rounded-full"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallary">
+      <div
+        class="container mx-auto mt-20 flex flex-col md:flex-row justify-between items-center p-6"
+      >
+        <div
+          class="img mx-auto flex flex-row gap-5 justify-center items-center lg:w-1/2 md:m-0"
+        >
+          <div class="left">
+            <div>
+              <img
+                class="rounded-2xl"
+                src="../assets/gallery-1.jpg"
+                alt="gallary"
+              />
+            </div>
+          </div>
+          <div class="right flex flex-col gap-5">
+            <div>
+              <img
+                class="rounded-2xl"
+                src="../assets/gallery-2.jpg"
+                alt="gallary"
+              />
+            </div>
+            <div>
+              <img
+                class="rounded-2xl"
+                src="../assets/gallery-3.jpg"
+                alt="gallary"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="text mx-auto md:w-1/2 py-10 px-10">
+          <h3 class=" text-lg sm:text-[38px] text-slate-900 font-bold">
+            Our trip gallary that will inspire you
+          </h3>
+          <p class="text-gray-800 py-5">
+            Explore your suitable and dream places around the world. Here you
+            can find your right destination.
+          </p>
+          <button
+            class="text-white px-6 w-fit py-2 bg-blue-500 transition-all duration-200 hover:bg-blue-900 rounded-full"
+          >
+            View All
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div
+        class="container mx-auto mt-20 flex flex-col md:flex-row justify-between items-center p-6"
+      >
+        <div class="text mx-auto md:w-1/2 py-10 px-10">
+          <h3 class="text-lg sm:text-[38px] text-slate-900 font-bold">
+            Subscribe to get special prize
+          </h3>
+          <p class="text-gray-800 py-5">
+            Explore your suitable and dream places around the world. Here you
+            can find your right destination.
+          </p>
+        </div>
+        <div
+          class="mx-auto flex flex-row gap-5 justify-center items-center lg:w-1/2 md:m-0"
+        >
+          <form action="#" class="shadow-lg rounded-full">
+            <input
+              type="email"
+              class="p-4 rounded-full focus:outline-none"
+              placeholder="Your email here"
+            />
+            <button
+              class="text-white px-6 w-fit py-4 bg-blue-500 transition-all duration-200 hover:bg-blue-900 rounded-full"
+            >
+              send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="mt-20 bg-slate-900 flex gap-20 flex-col p-5 md:flex-row md:p-20 justify-between items-center"
+      >
+        <div class="logo md:h-56 justify-start flex flex-col w-full md:w-1/3">
+          <p class="text-xl text-white font-bold pb-5">
+            Pathway<span class="text-blue-500">.</span>
+          </p>
+          <p class="text-white hover:text-blue-500 duration-300">
+            Explore your suitable and dream places around the world. Here you
+            can find your right destination.
+          </p>
+        </div>
+
+        <div class="support md:h-56 w-full md:w-1/3 flex flex-col ">
+          <h3 class="text-xl text-white font-bold pb-5">Support</h3>
+          <div class="content flex flex-col justify-center gap-5">
+            <p class="text-white hover:text-blue-500 duration-300">FAQs</p>
+            <p class="text-white hover:text-blue-500 duration-300">
+              Terms& Conditions
+            </p>
+            <p class="text-white hover:text-blue-500 duration-300">
+              Privacy Policy
+            </p>
+            <p class="text-white hover:text-blue-500 duration-300">
+              Contact Us
+            </p>
+          </div>
+        </div>
+
+        <div class="address md:h-56 w-full md:w-1/3 flex flex-col  ">
+          <h3 class="text-xl text-white font-bold pb-5">Address</h3>
+          <div class="content">
+            <p class="text-white hover:text-blue-500 duration-300">Address: 280 Wilson Street, Cima, California, 92323, United States</p>
+            <p class="text-white hover:text-blue-500 duration-300">
+              Email: info@pathway.com
+            </p>
+            <p class="text-white hover:text-blue-500 duration-300">
+              Phone: +91 9876543210
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
